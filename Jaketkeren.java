@@ -6,6 +6,7 @@ class Jaket {
     int Ukuran;
 
     // Konstruktor
+    
     public Jaket(String merk, String warna, int Ukuran) {
         this.merk = merk;
         this.warna = warna;
@@ -18,11 +19,18 @@ class Jaket {
         System.out.println("Warna: " + warna);
         System.out.println("Tahun Produksi: " + Ukuran);
     }
+
+    public String ukuran(int i) {
+        return null;
+    }
+
+    public void tampilNama() {
+    }
 }
 
 public class Jaketkeren {
     public static void main(String[] args) {
-        // Membuat objek dari class Kendaraan
+        // Membuat objek dari class Jaket
         Jaket ellese = new Jaket("ellese", "Hitam", 95);
 
         // Memanggil metode untuk menampilkan informasi
